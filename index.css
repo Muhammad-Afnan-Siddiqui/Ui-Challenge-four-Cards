@@ -14,18 +14,12 @@ p {
   color: hsl(228, 45%, 44%);
 }
 .card-ui {
-  height: calc(100vh - 16.5px);
-  min-height: 850px;
+  height: 100%;
 }
 .Main-Content {
-  height: 300px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
   width: 40%;
   text-align: center;
-  margin: auto;
+  margin: 30px auto;
 }
 .Main-Content .light-heading {
   font-weight: lighter;
@@ -72,4 +66,26 @@ p {
 .right-card {
   margin-bottom: 30px;
   border-top: 4px solid hsl(212, 86%, 64%);
+}
+@media screen and (max-width: 992px) {
+  .Main-Content {
+    width: 60%;
+  }
+}
+@media screen and (max-width: 576px) {
+  .Main-Content {
+    width: 90%;
+    text-align: center;
+  }
+  .Main-Content .light-heading {
+    font-size: x-large;
+  }
+  .Main-Content .dark-heading {
+    font-weight: 500;
+  }
+  .all-cards {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+  }
 }
