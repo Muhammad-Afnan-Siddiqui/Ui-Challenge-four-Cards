@@ -1,0 +1,75 @@
+body {
+  font-size: 15px;
+}
+p {
+  font-family: 'Poppins';
+  color: hsl(229, 6%, 66%);
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin: 0;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+.card-ui {
+  height: calc(100vh - 16.5px);
+  min-height: 850px;
+}
+.Main-Content {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 40%;
+  text-align: center;
+  margin: auto;
+}
+.Main-Content .light-heading {
+  font-weight: lighter;
+  color: hsl(229, 6%, 66%);
+}
+.Main-Content .dark-heading {
+  color: hsl(234, 12%, 34%);
+  font-weight: bolder;
+  margin-bottom: 25px;
+}
+.all-cards {
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  box-shadow: rgb(136 165 191 / 48%) 0px 6px 18px 0px,
+    rgb(255 255 255 / 80%) -6px -2px;
+  padding: 30px;
+}
+.all-cards > h5 {
+  color: hsl(234, 12%, 34%);
+  font-weight: bolder;
+  margin-bottom: 15px;
+}
+.all-cards > p {
+  width: 80%;
+}
+.all-cards > img {
+  margin: 25px 0px;
+  align-self: flex-end;
+}
+
+.left-card {
+  border-top: 4px solid hsl(180, 62%, 55%);
+  margin-bottom: 30px;
+}
+.Center-card .center-card1 {
+  margin-bottom: 30px;
+  border-top: 4px solid hsl(0, 78%, 62%);
+}
+.Center-card .center-card2 {
+  border-top: 4px solid hsl(34, 97%, 64%);
+  margin-bottom: 30px;
+}
+.right-card {
+  margin-bottom: 30px;
+  border-top: 4px solid hsl(212, 86%, 64%);
+}
